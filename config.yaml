@@ -1,0 +1,15 @@
+datapath: './data/dichalcogenides_public'
+test_datapath: './data/dichalcogenides_private'
+checkpoint_path0: './callback/fold_transfer_3.hdf5'
+checkpoint_path1: './callback/fold_transfer_2.hdf5'
+checkpoint_path2: './callback/fold_transfer_3.hdf5'
+checkpoint_path3: './callback/fold_transfer_4.hdf5'
+checkpoint_path4: './callback/fold_transfer_5.hdf5'
+
+model:
+  epochs: 800
+  batch_size: 128
+  lr: 2e-4 
+  cutoff: 4
+
+
